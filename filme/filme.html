@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="../img/conhecimento.png" type="image/x-icon">
+  <title>Semana 3</title>
+  <link rel="stylesheet" href="../styles.css">
+
+ 
+</head>
+
+<body>
+  <main>
+    <p class="titulo">Ler título e duração de um filme em minitos. Connverter para horas e minutos.</p>
+
+    <div>
+      <p class="tiulo-exercicio">Digite o nome do filme</p>
+      <input required id="filme" type="text" placeholder="Ex: Senhores dos Anéis ">
+      <br>
+      <p class="tiulo-exercicio">Digite a duração do filme em minutos</p>
+      <input required id="minutos" type="number" placeholder="Ex:125 minutos">
+      <br>
+
+      <button type="submit" onclick="filme()">Calcular duração</button>
+
+      <h2 id="resultado"></h2>
+    </div>
+  </main>
+
+  <script src="filme.js"></script>
+</body>
+
+</html>
